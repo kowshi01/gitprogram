@@ -1,5 +1,6 @@
-var header=document.getElementById("main-header");
-header.style.borderBottom='solid 5px #000';
-var additem=document.getElementById("main");
-additem.style.fontWeight="bold";
-additem.style.color="green"
+var a=document.getElementsByClassName("list-group-item");
+a[1].textContent='hello';
+a[2].style.backgroundColor = 'green';
+for(var i=0;i<a.length;i++){
+    a[i].style.fontWeight='bold';
+}
